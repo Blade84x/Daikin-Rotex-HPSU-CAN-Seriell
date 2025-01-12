@@ -1266,22 +1266,22 @@ sensor_configuration = [
         "data_size": 2,
         "divider": 10.0
     },
-#    {
-#        "type": "number",
-#        "name": "bivalent_temperature",
-#        "device_class": DEVICE_CLASS_TEMPERATURE,
-#        "unit_of_measurement": UNIT_CELSIUS,
-#        "accuracy_decimals": 1,
-#        "state_class": STATE_CLASS_MEASUREMENT,
-#        "min_value": -15,
-#        "max_value": 35,
-#        "step": 1,
-#        "can_id": 0x500,
-#        "command": "31 00 FA 06 D4",
-#        "data_offset": 5,
-#        "data_size": 2,
-#        "divider": 10.0
-#    },
+    {
+        "type": "number",
+        "name": "bivalent_temperature",
+        "device_class": DEVICE_CLASS_TEMPERATURE,
+        "unit_of_measurement": UNIT_CELSIUS,
+        "accuracy_decimals": 1,
+        "state_class": STATE_CLASS_MEASUREMENT,
+        "min_value": -15,
+        "max_value": 35,
+        "step": 1,
+        "can_id": 0x500,
+        "command": "31 00 FA 06 D4",
+        "data_offset": 5,
+        "data_size": 2,
+        "divider": 10.0
+    },
     {
         "type": "number",
         "name": "supply_temperature_adjustment_heating",
